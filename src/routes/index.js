@@ -5,7 +5,7 @@ import AuthRoutes from './auth.routes';
 
 function Routes(){
   const loading = false; //usuário carregando
-  const signed = fals; // usuário logado
+  const signed = false; // usuário logado
 
   return signed ? <View></View> : <AuthRoutes />;
 }
